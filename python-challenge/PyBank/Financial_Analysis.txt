@@ -1,0 +1,8 @@
+
+Financial Analysis
+=====================================
+Total number of Month entries:86
+Total Net Profits: $38382578
+Average change in Profits between Months: $-2315
+Greatest increase in Profits: Feb-12 ($1926159)
+Greatest descrease in Profits: Sep-13 ($-2196167)

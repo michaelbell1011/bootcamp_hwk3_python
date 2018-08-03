@@ -42,12 +42,13 @@ with open(csvpath, newline='') as csvfile:
         # avg_profits = Net_Profits / len(profits)
         # print(f"Total Average Profits: ${avg_profits}")
 prev_prof = 0
+# prev_prof = next(profits)
 profits_delta_list = []
 
 for n in profits:
     profits_delta_list.append(n - prev_prof)
     prev_prof = n
-avg_profits_delta = round(sum(profits_delta_list)/(len(profits_delta_list)))
+avg_profits_delta = round(sum(profits_delta_list[1:]) / (len(profits_delta_list) - 1))
 # print(f"Average change in Profits between Months: ${avg_profits_delta}")
 
 # # identifying The greatest increase in profits (date and amount) over the entire period
