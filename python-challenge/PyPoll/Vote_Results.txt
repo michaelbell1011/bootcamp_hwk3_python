@@ -1,0 +1,11 @@
+
+Election Results
+=====================================
+Total number of votes: 3521001
+=====================================
+Khan earned 63.0% of the vote with 2218231 votes.
+Correy earned 20.0% of the vote with 704200 votes.
+Li earned 14.0% of the vote with 492940 votes.
+O'Tooley earned 3.0% of the vote with 105630 votes.
+=====================================
+Khan is the winner.
